@@ -1,11 +1,18 @@
 # FlaskPDFGenerator
 Flask + PDF Generator
 
-* need to - run flask
-* need to test
-* need to clean out preferences.json
+Basic Flask PDF Generator, requirements provided for virtual env. 
 
-* $ virtualenv
-* $ source env/bin/activate
-* $ pip install -r requirements.txt
-* $ python main.py
+Requires settings.json with mandrill credentials & email sender.
+
+## Configure
+
+Create a `settings.json` file in the same directory as `main.py` :
+
+```json
+{
+    "mail_username":"YOUR USERNAME",
+    "mail_key":"YOUR KEY/PASSWORD",
+    "sender_email":"YOUR EMAIL"
+}
+```
