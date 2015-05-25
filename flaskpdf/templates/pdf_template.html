@@ -1,0 +1,17 @@
+<html>
+    <head>
+    </head>
+    <body>
+    {% block body %}
+
+            <h2>{{pdf_title}}</h2><br>
+
+            <h3>{{pdf_text}}</h3><br>
+
+            <h3>{{pdf_email}}</h3><br>
+
+    {% endblock %}
+
+    <img src='{{ url_for('static', filename='img/hamburger.jpg') }}' width='300' height='300'>
+    </body>
+</html>
