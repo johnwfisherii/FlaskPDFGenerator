@@ -10,7 +10,7 @@ html5lib==0.99999
 itsdangerous==0.24
 mimerender==0.5.5
 python-mimeparse==0.1.4
-reportlab==3.1.44
+reportlab==3.5.55
 six==1.9.0
 wsgiref==0.1.2
 xhtml2pdf==0.0.6
